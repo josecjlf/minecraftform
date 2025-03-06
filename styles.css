@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    font-family: "Silkscreen", "Roboto";
+}
+:root {
+    --black: #000000;
+    --paynes-gray: #586F7C;
+    --light-blue: #B8DBD9;
+    --ghost-white: #F4F4F9;
+    --dark-spring-green: #04724D;
+}
+
+
+body{
+    background-image: url(/resources/minecraft_wallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+
+body, h1, h2, label, input, select {
+    color: var(--ghost-white);
+}
+
+
+
+.principal{
+    width: 600px;
+    height: 500px;
+    background-color: rgba(244, 244, 249, 0.5); 
+    display: block;
+    margin: 10px auto;
+    padding: 20px 10px;
+    margin: auto;
+
+
+}
+
+h1,h2 {
+    display: block;
+    font-size: 30px;
+}
+
+label{
+    color: var(--black);
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+h2{
+    margin-bottom: 50px;
+}
+
+input{
+    margin-bottom: 5px;
+}
+
+option{
+    color: var(--black);
+    opacity: unset;
+    
+}
+
+select{
+
+    background-color: var(--ghost-white);
+    color: var(--black)
+}
+
+textarea{
+    display: block;
+    margin: 10px auto;
+    width: 400px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+#botao{
+    background-color: var(--dark-spring-green);
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+    
+}
+
+#age{
+    width: 30%;
+}

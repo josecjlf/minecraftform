@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minecraft form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Silkscreen:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>  
+    <audio id="musica" autoplay loop>
+        <source src="resources/minecraft.mp3" type="audio/mp3">
+    </audio>
+    
+    <h1>minecraft form</h1>
+    <h2>participe desse projeto!</h2>
+    <div class="principal">
+        <form>
+            <label for="nome">Nome:</label><input id="nome" type="text" placeholder="digite seu nome" />
+            <label for="nome">Email:</label><input id="email" type="text" placeholder="digite seu email" />
+            <label for="nome">Idade:</label><input id="age" type="number" placeholder="digite sua idade" />
+            <label for="mob">Qual seu mob preferido?</label>
+            <select id="mob">
+                <option value="">Escolha um mob</option>
+                <option>Porco</option>
+                <option>Enderman</option>
+                <option>Morcego</option>
+                <option>Outro</option>
+            </select>
+            <textarea placeholder="digite sua melhor história no minecraft..."></textarea>
+            <button type="submit" id="botao">Enviar</button>
+        </form>
+    </div>
+   
+</body>
+
+</html>
